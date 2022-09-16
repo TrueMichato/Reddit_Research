@@ -9,6 +9,7 @@ DND_SUBREDDITS_LIST = ['dndnext', 'dndmemes', 'DMacademy', 'DnDHomebrew', 'DnD',
                        'DungeonsAndDragons', 'DnDBehindTheScreen', 'DnDGreentext', 'dndmaps', 'DMToolkit',
                        'dndmonsters', 'DndAdventureWriter', 'PCAcademy', 'DnD5e', 'Dungeons_and_Dragons', 'DMDadJokes',
                        'DungeonMasters', 'powergamermunchkin', 'onednd']
+
 HOMEBREW_SUBREDDITS = "DnDHomebrew,UnearthedArcana,DnDBehindTheScreen,dndmonsters"
 
 FILEPATH = "dataset_general_dnd_posts_1598130000_1661202000.csv"

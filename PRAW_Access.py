@@ -81,7 +81,6 @@ def data_prep_posts(subreddits, start_time, end_time, filters, limit) -> pd.Data
             limit=limit))  # Max number of posts
     return pd.DataFrame([post.__dict__ for post in tqdm(posts)], columns=filters)  # Return dataframe for analysis
 
-
 # def data_pred_praw_posts(ids: List[str], filters) -> pd.DataFrame:
 #     posts: List[praw.Reddit.submission] = []
 #     for id_ in ids:
